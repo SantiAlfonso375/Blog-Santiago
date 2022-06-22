@@ -57,6 +57,30 @@ body {
   font-size: 30px;
   margin-top: 8px;
   margin-left: 26px;
+  -webkit-animation-name: rotate-gear;
+          animation-name: rotate-gear;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+@-webkit-keyframes rotate-gear {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes rotate-gear {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }
 #header .wrap #logo h3 {
   display: block;
@@ -65,6 +89,57 @@ body {
   margin-top: 5px;
   margin-right: 65px;
   transition: all 300ms;
+}
+#header .wrap #logo:hover {
+  border-radius: 2px;
+  color: black;
+  background-color: #ccc;
+}
+#header .wrap #logo:hover .gear {
+  -webkit-animation: fromBellow 500ms linear;
+          animation: fromBellow 500ms linear;
+}
+@-webkit-keyframes fromBellow {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(200%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes fromBellow {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(200%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+#header .wrap #logo:hover h3 {
+  -webkit-animation: fromRight 300ms linear;
+          animation: fromRight 300ms linear;
+}
+@-webkit-keyframes fromRight {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@keyframes fromRight {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
 #header .wrap #menu {
   float: right;
