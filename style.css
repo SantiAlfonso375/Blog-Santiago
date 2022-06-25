@@ -1,3 +1,11 @@
+/* @use 'variables';
+@use 'general'; */
+/* @use 'header'; */
+/* @use 'wrap-banner'; */
+/* @use 'lateral';
+@use 'articles'; */
+/* @use 'clearfix'; */
+/* @use 'footer'; */
 /* Fuentes */
 @font-face {
   font-family: "TrebuchetMS";
