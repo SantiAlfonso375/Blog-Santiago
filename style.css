@@ -1,11 +1,3 @@
-/* @use 'variables';
-@use 'general'; */
-/* @use 'header'; */
-/* @use 'wrap-banner'; */
-/* @use 'lateral';
-@use 'articles'; */
-/* @use 'clearfix'; */
-/* @use 'footer'; */
 /* Fuentes */
 @font-face {
   font-family: "TrebuchetMS";
@@ -45,6 +37,12 @@ body {
 #header .wrap {
   width: 1250px;
   margin: 0px auto;
+}
+@media (max-width: 1250px) {
+  #header .wrap {
+    width: 90%;
+    margin: 0px auto;
+  }
 }
 #header .wrap #logo {
   float: left;
@@ -176,6 +174,12 @@ body {
   width: 1250px;
   margin: 0px auto;
 }
+@media (max-width: 1250px) {
+  .wrap-banner {
+    width: 90%;
+    margin: 0px auto;
+  }
+}
 .wrap-banner #info #banner {
   width: 95.5%;
   height: 100px;
@@ -274,6 +278,12 @@ body {
   margin-top: 40px;
   cursor: pointer;
   transition: all 300ms;
+}
+@media (max-width: 1250px) {
+  .wrap-banner #info .cards .card {
+    width: 17%;
+    margin: 1.43%;
+  }
 }
 .wrap-banner #info .cards .card .icon {
   font-family: "WebSymbolsRegular";
@@ -584,6 +594,11 @@ body {
   width: 860px;
   float: left;
 }
+@media (max-width: 1250px) {
+  #articles {
+    width: 65%;
+  }
+}
 #articles h2 {
   display: block;
   width: 100%;
@@ -614,6 +629,11 @@ body {
   background: white;
   color: black;
   box-shadow: 1px 1px 2px #ddd;
+}
+@media (max-width: 1250px) {
+  #articles article {
+    width: 97%;
+  }
 }
 #articles article h4 {
   display: block;
