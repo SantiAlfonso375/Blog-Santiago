@@ -178,6 +178,11 @@ body{
                 margin: 27px auto;
                 text-align: center;
                 animation: showText 10s linear;
+                @media (max-width:1250px){
+                    font-size: 35px;
+                    text-align: center;
+                    margin: 33px auto;
+                }
                 @keyframes showText {
                     0%{
                         transform: translateX(-600%) scale(5,5);
@@ -218,6 +223,14 @@ body{
                 @media (max-width:1250px) {
                     width: 17%;
                     margin: 1.43%;
+                }
+                p{
+                    @media (max-width:1250px){
+                        display: block;
+                        width: 90%;
+                        margin: 0px auto;
+                        text-align: center;
+                    }
                 }
                 .icon{
                     font-family: "WebSymbolsRegular";
@@ -526,7 +539,7 @@ body{
         clear: both;
     }
     article{
-        width: 100%;
+        width: 98%;
         height: auto;
         border: 1px solid #ccc;
         margin: 40px auto;
@@ -631,6 +644,9 @@ body{
             text-align: center;
             color: white;
             font-family: "TrebuchetMS";
+            @media (max-width:1250px){
+                width: 24%;
+            }
         }
     }
     a{
@@ -650,6 +666,9 @@ body{
         color: black;
         border-radius: 5px;
         margin-bottom: 15px;
+        @media (max-width:1250px){
+            font-size: 30px;
+        }
     }
     #menu_footer{
         ul{
@@ -689,6 +708,9 @@ body{
     #browsers{
         img{
             width: 45px;
+            @media (max-width:1250px){
+                width: 14%;
+            }
         }
     }
 }

@@ -222,6 +222,13 @@ body {
   -webkit-animation: showText 10s linear;
           animation: showText 10s linear;
 }
+@media (max-width: 1250px) {
+  .wrap-banner #info #banner h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: 33px auto;
+  }
+}
 @-webkit-keyframes showText {
   0% {
     transform: translateX(-600%) scale(5, 5);
@@ -283,6 +290,14 @@ body {
   .wrap-banner #info .cards .card {
     width: 17%;
     margin: 1.43%;
+  }
+}
+@media (max-width: 1250px) {
+  .wrap-banner #info .cards .card p {
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
   }
 }
 .wrap-banner #info .cards .card .icon {
@@ -620,7 +635,7 @@ body {
   clear: both;
 }
 #articles article {
-  width: 100%;
+  width: 98%;
   height: auto;
   border: 1px solid #ccc;
   margin: 40px auto;
@@ -749,6 +764,11 @@ body {
   color: white;
   font-family: "TrebuchetMS";
 }
+@media (max-width: 1250px) {
+  #footer .wrap > div {
+    width: 24%;
+  }
+}
 #footer a {
   text-decoration: none;
   color: #37bcf9;
@@ -766,6 +786,11 @@ body {
   color: black;
   border-radius: 5px;
   margin-bottom: 15px;
+}
+@media (max-width: 1250px) {
+  #footer h5 {
+    font-size: 30px;
+  }
 }
 #footer #menu_footer ul {
   text-align: left;
@@ -800,4 +825,9 @@ body {
 }
 #footer #browsers img {
   width: 45px;
+}
+@media (max-width: 1250px) {
+  #footer #browsers img {
+    width: 14%;
+  }
 }/*# sourceMappingURL=style.css.map */
