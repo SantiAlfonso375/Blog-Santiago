@@ -238,6 +238,71 @@ body #lateral #login input[type=password] {
     font-size: 25px;
   }
 }
+@media (max-width: 475px) {
+  body #header {
+    width: 100%;
+    height: 275px;
+    padding-top: 10px;
+  }
+  body #header .wrap #logo {
+    float: left;
+  }
+  body #header .wrap #menu {
+    width: 100%;
+    float: none;
+    margin: 0px auto;
+    clear: both;
+  }
+  body #header .wrap #menu ul li {
+    width: 100%;
+    line-height: 52px;
+  }
+  body #header .wrap #menu ul li a {
+    width: 100%;
+    line-height: 52px;
+  }
+  body #header .wrap #menu ul li a:hover {
+    color: #37bcf9;
+    transform: scale(1, 1);
+  }
+  body #banner {
+    height: 85px;
+  }
+  body #banner h1 {
+    font-size: 18px;
+  }
+  body .wrap-banner #info .cards .card {
+    width: 15.8%;
+    margin: 1.9%;
+  }
+  body .wrap-banner #info .cards .card .icon {
+    height: 95px;
+    font-size: 35px;
+  }
+  body .wrap-banner #info .cards .card:hover .icon {
+    font-size: 35px;
+  }
+  body .wrap-banner #info .cards .card .category {
+    font-size: 12px;
+  }
+  body #articles .data {
+    float: none;
+    margin: -10px;
+    border-radius: 0px;
+  }
+  body #articles article h4 {
+    margin-top: 20px;
+  }
+  body #lateral input[type=text] {
+    width: 85%;
+  }
+  body #lateral input[type=button] {
+    width: 43px;
+  }
+  body #lateral #login input[type=email], body #lateral #login input[type=password] {
+    width: 86%;
+  }
+}
 
 #header {
   width: 100%;
