@@ -25,11 +25,11 @@
 
 body {
   background: url("/recursos-maquetacion-2-master-css-victor-robles/img/pattern.png");
-  /* @media (max-width:1250px){
-      #banner h1{
-          width: 100%;
-      }
-  } */
+}
+@media (max-width: 1250px) {
+  body #banner h1 {
+    width: 100%;
+  }
 }
 @media (max-width: 1080px) {
   body .card .category {
@@ -134,6 +134,32 @@ body #login button {
   }
   body #login input[type=reset] {
     display: none;
+  }
+}
+@media (max-width: 850px) {
+  body #lateral h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 780px) {
+  body .wrap-banner #info #banner h1 {
+    font-size: 29px;
+    text-align: center;
+  }
+  body .wrap-banner #info .cards .card {
+    height: auto;
+  }
+  body .wrap-banner #info .cards .card .category {
+    font-size: 15px;
+    margin-top: -23;
+  }
+  body .wrap-banner #info .cards .card .description {
+    display: none;
+  }
+  body #footer img {
+    margin-bottom: 15px;
+    max-width: 100%;
   }
 }
 
