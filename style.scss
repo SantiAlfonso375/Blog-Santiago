@@ -113,6 +113,10 @@ body{
         #lateral input[type="text"]{
             width: 78%;
         }
+        #lateral #login input[type=email],
+        #lateral #login input[type=password]{
+            width: 70%;
+        }
         .aside-box{
             width: 95%;
             min-height: 140px;
@@ -146,6 +150,10 @@ body{
             font-size: 20px;
             text-align: center;
         }
+        #lateral #login input[type=email],
+        #lateral #login input[type=password]{
+            width: 70%;
+        }
     }
     @media (max-width:780px){
         .wrap-banner #info #banner h1{
@@ -165,6 +173,59 @@ body{
         #footer img {
             margin-bottom: 15px;
             max-width: 100%;
+        }
+    }
+    @media (max-width:735px){
+        #header{
+            width: 100%;
+            height: 120px;
+            padding-top: 10px;
+        }
+        #header .wrap #logo {
+            float: none;
+            width: 200px;
+            margin: 0px auto;
+        }
+        #header .wrap #menu{
+            width: 440px;
+            float: none;
+            margin: 0px auto;
+            clear: both;
+        }
+        #lateral input[type=button]{
+            width: 17px;
+            font-size: 10px;
+        }
+    }
+    @media (max-width:660px){
+        #banner h1{
+            font-size: 25px;
+        }
+        #lateral{
+            float: none;
+            width: 100%;
+            margin: 0px auto;
+            min-height: auto;
+            margin-top: 20px;
+        }
+        #lateral input[type=text] {
+            width: 93%;
+        }
+        #lateral input[type=button] {
+            width: 23px;
+            font-size: 16px;
+        }
+        #lateral #login input[type=email], #lateral #login input[type=password] {
+            width: 90%;
+        }
+        #lateral #sociales .overlay{
+            width: 25%;
+        }
+        #articles{
+            float: none;
+            width: 100%;
+            margin: 0px auto;
+            min-height: auto;
         }
     }
 }

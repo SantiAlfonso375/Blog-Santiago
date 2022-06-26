@@ -108,6 +108,10 @@ body #login button {
   body #lateral input[type=text] {
     width: 78%;
   }
+  body #lateral #login input[type=email],
+body #lateral #login input[type=password] {
+    width: 70%;
+  }
   body .aside-box {
     width: 95%;
     min-height: 140px;
@@ -141,6 +145,10 @@ body #login button {
     font-size: 20px;
     text-align: center;
   }
+  body #lateral #login input[type=email],
+body #lateral #login input[type=password] {
+    width: 70%;
+  }
 }
 @media (max-width: 780px) {
   body .wrap-banner #info #banner h1 {
@@ -160,6 +168,59 @@ body #login button {
   body #footer img {
     margin-bottom: 15px;
     max-width: 100%;
+  }
+}
+@media (max-width: 735px) {
+  body #header {
+    width: 100%;
+    height: 120px;
+    padding-top: 10px;
+  }
+  body #header .wrap #logo {
+    float: none;
+    width: 200px;
+    margin: 0px auto;
+  }
+  body #header .wrap #menu {
+    width: 440px;
+    float: none;
+    margin: 0px auto;
+    clear: both;
+  }
+  body #lateral input[type=button] {
+    width: 17px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 660px) {
+  body #banner h1 {
+    font-size: 25px;
+  }
+  body #lateral {
+    float: none;
+    width: 100%;
+    margin: 0px auto;
+    min-height: auto;
+    margin-top: 20px;
+  }
+  body #lateral input[type=text] {
+    width: 93%;
+  }
+  body #lateral input[type=button] {
+    width: 23px;
+    font-size: 16px;
+  }
+  body #lateral #login input[type=email], body #lateral #login input[type=password] {
+    width: 90%;
+  }
+  body #lateral #sociales .overlay {
+    width: 25%;
+  }
+  body #articles {
+    float: none;
+    width: 100%;
+    margin: 0px auto;
+    min-height: auto;
   }
 }
 
