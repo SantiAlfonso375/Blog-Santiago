@@ -25,6 +25,116 @@
 
 body {
   background: url("/recursos-maquetacion-2-master-css-victor-robles/img/pattern.png");
+  /* @media (max-width:1250px){
+      #banner h1{
+          width: 100%;
+      }
+  } */
+}
+@media (max-width: 1080px) {
+  body .card .category {
+    font-size: 14px;
+  }
+  body .card .description {
+    font-size: 14px;
+  }
+  body #articles {
+    width: 61%;
+  }
+}
+@media (max-width: 970px) {
+  body #articles {
+    width: 65%;
+  }
+  body #lateral {
+    width: 33%;
+  }
+  body #footer .wrap {
+    width: 100%;
+  }
+  body #footer .wrap > div {
+    width: 26%;
+    margin: 20px;
+  }
+  body #footer h5 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 967px) {
+  body articles {
+    width: 65%;
+  }
+  body #lateral {
+    width: 25%;
+  }
+  body #lateral input[type=text] {
+    width: 78%;
+  }
+  body .aside-box {
+    width: 95%;
+    min-height: 140px;
+    height: auto;
+  }
+  body #login a {
+    margin-top: -11px;
+    margin-bottom: 9px;
+    padding-bottom: 8px;
+  }
+  body #login input[type=email],
+body #login input[type=password] {
+    width: 65%;
+  }
+  body #login #user,
+body #login #password {
+    margin-left: 24px;
+  }
+  body #login input[type=submit],
+body #login input[type=button],
+body #login input[type=reset],
+body #login button {
+    margin-bottom: 0px;
+  }
+  body #login input[type=reset] {
+    display: none;
+  }
+}
+@media (max-width: 925px) {
+  body #articles {
+    width: 65%;
+  }
+  body #lateral {
+    width: 25%;
+  }
+  body #lateral input[type=text] {
+    width: 78%;
+  }
+  body .aside-box {
+    width: 95%;
+    min-height: 140px;
+    height: auto;
+  }
+  body #login a {
+    margin-top: -11px;
+    margin-bottom: 9px;
+    padding-bottom: 8px;
+  }
+  body #login input[type=email],
+body #login input[type=password] {
+    width: 65%;
+  }
+  body #login #user,
+body #login #password {
+    margin-left: 24px;
+  }
+  body #login input[type=submit],
+body #login input[type=button],
+body #login input[type=reset],
+body #login button {
+    margin-bottom: 0px;
+  }
+  body #login input[type=reset] {
+    display: none;
+  }
 }
 
 #header {
@@ -224,6 +334,7 @@ body {
 }
 @media (max-width: 1250px) {
   .wrap-banner #info #banner h1 {
+    width: 100%;
     font-size: 35px;
     text-align: center;
     margin: 33px auto;

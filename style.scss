@@ -30,6 +30,118 @@ $color-AzulOscuro: #00538c;
 }
 body{
     background: url("/recursos-maquetacion-2-master-css-victor-robles/img/pattern.png");
+    /* @media (max-width:1250px){
+        #banner h1{
+            width: 100%;
+        }
+    } */
+    @media (max-width:1080px){
+        .card .category{
+            font-size: 14px;
+        }
+        .card .description{
+            font-size: 14px;
+        }
+        #articles{
+            width: 61%;
+        }
+    }
+    @media (max-width:970px){
+        #articles{
+            width: 65%;
+        }
+        #lateral{
+            width: 33%;
+        }
+        #footer .wrap{
+            width: 100%;
+        }
+        #footer .wrap > div{
+            width: 26%;
+            margin: 20px;
+        }
+
+        #footer h5{
+            font-size: 22px;
+        }
+    }
+    @media (max-width:967px) {
+        articles{
+            width: 65%;
+        }
+        #lateral{
+            width: 25%;
+        }
+        #lateral input[type="text"]{
+            width: 78%;
+        }
+        .aside-box{
+            width: 95%;
+            min-height: 140px;
+            height: auto;
+        }
+        #login a{
+            margin-top: -11px;
+            margin-bottom: 9px;
+            padding-bottom: 8px;
+        }
+        #login input[type="email"],
+        #login input[type="password"]{
+            width: 65%;
+        }
+        #login #user,
+        #login #password{
+            margin-left: 24px;
+        }
+        #login input[type="submit"],  
+        #login input[type="button"], 
+        #login input[type="reset"],  
+        #login button{
+            margin-bottom: 0px;
+        }
+        #login input[type="reset"]{
+            display: none;
+        }
+    }
+    @media (max-width:925px){
+        #articles{
+            width: 65%;
+        }
+        #lateral{
+            width: 25%;
+        }
+        #lateral input[type="text"]{
+            width: 78%;
+        }
+        .aside-box{
+            width: 95%;
+            min-height: 140px;
+            height: auto;
+        }
+        #login a{
+            margin-top: -11px;
+            margin-bottom: 9px;
+            padding-bottom: 8px;
+        }
+        #login input[type="email"],
+        #login input[type="password"]{
+            width: 65%;
+        }
+        #login #user,
+        #login #password{
+            margin-left: 24px;
+        }
+        #login input[type="submit"],  
+        #login input[type="button"], 
+        #login input[type="reset"],  
+        #login button{
+            margin-bottom: 0px;
+        }
+        #login input[type="reset"]{
+            display: none;
+        }
+
+    }
 }
 #header{
     width: 100%;
@@ -179,6 +291,7 @@ body{
                 text-align: center;
                 animation: showText 10s linear;
                 @media (max-width:1250px){
+                    width: 100%;
                     font-size: 35px;
                     text-align: center;
                     margin: 33px auto;
@@ -714,4 +827,3 @@ body{
         }
     }
 }
-
