@@ -61,7 +61,7 @@ body {
   }
 }
 @media (max-width: 967px) {
-  body articles {
+  body #articles {
     width: 65%;
   }
   body #lateral {
@@ -196,6 +196,9 @@ body #lateral #login input[type=password] {
   body #banner h1 {
     font-size: 25px;
   }
+  body .wrap-banner #info .cards .card .icon {
+    height: 110px;
+  }
   body #lateral {
     float: none;
     width: 100%;
@@ -221,6 +224,18 @@ body #lateral #login input[type=password] {
     width: 100%;
     margin: 0px auto;
     min-height: auto;
+  }
+  body #footer {
+    height: auto;
+    padding-bottom: 55px;
+  }
+  body #footer .wrap > div {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 20px;
+  }
+  body #footer h5 {
+    font-size: 25px;
   }
 }
 

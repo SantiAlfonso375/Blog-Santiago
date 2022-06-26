@@ -66,7 +66,7 @@ body{
         }
     }
     @media (max-width:967px) {
-        articles{
+        #articles{
             width: 65%;
         }
         #lateral{
@@ -201,6 +201,9 @@ body{
         #banner h1{
             font-size: 25px;
         }
+        .wrap-banner #info .cards .card .icon{
+            height: 110px;
+        }
         #lateral{
             float: none;
             width: 100%;
@@ -226,6 +229,18 @@ body{
             width: 100%;
             margin: 0px auto;
             min-height: auto;
+        }
+        #footer{
+            height: auto;
+            padding-bottom: 55px;
+        }
+        #footer .wrap > div{            
+            width: 100%;
+            margin: 0px auto;
+            margin-top: 20px;
+        }
+        #footer h5{            
+            font-size: 25px;
         }
     }
 }
